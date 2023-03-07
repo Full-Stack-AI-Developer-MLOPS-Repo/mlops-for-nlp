@@ -1,0 +1,22 @@
+artifacts:
+  ARTIFACTS_DIR: artifacts
+  PREPARED_DATA: prepared
+  TRAIN_DATA: train.csv
+  TEST_DATA: test.csv
+  FEATURED_DATA: features
+  FEATURED_OUT_TRAIN: train.pkl
+  FEATURED_OUT_TEST: test.pkl
+  MODEL_DIR: models
+  MODEL_NAME: model.pkl
+
+metrics:
+  SCORES: scores.json
+
+plots:
+  PRC: prc.json
+  ROC: roc.json
+
+source_data:
+  data_dir: data/raw
+  data_file: Corona.csv
+

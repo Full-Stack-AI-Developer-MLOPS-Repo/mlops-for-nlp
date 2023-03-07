@@ -1,0 +1,19 @@
+prepare:
+  split: 0.3
+  seed: 2023
+
+featurize:
+  max_features: 2500
+  ngrams: 2
+
+train:
+  seed: 2023
+  n_est: 100
+  min_split: 16
+
+split_data:
+  train_path: data/processed/corona_train.csv
+  test_path: data/processed/corona_test.csv
+  test_size: 0.2
+
+model_dir: models
